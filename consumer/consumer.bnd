@@ -1,0 +1,9 @@
+Bundle-SymbolicName: consumer
+Private-Package: consumer
+
+#won't work with both: Import-Package: foo.lib;version=1.1.0,\
+#won't work with both: Import-Package: foo.lib,\
+
+Import-Package: foo.lib;version='[1.1.0, 1.2.0)',\
+	*
+Bundle-Activator: consumer.ConsumerActivator

@@ -1,0 +1,4 @@
+-buildpath: org.eclipse.osgi,\
+	foo.provider;version=latest,\
+	foo.v2.lib-ver2;version=latest
+-sub: *.bnd

@@ -1,0 +1,8 @@
+Bundle-SymbolicName: foo.provider
+Private-Package: foo.provider
+
+#Import-Package: foo.lib;version='1.1.0',\
+Import-Package: foo.lib;version='[1.1.0, 1.2.0)',\
+	*
+Export-Package: foo.provider
+Bundle-Activator: foo.provider.ProviderActivator
