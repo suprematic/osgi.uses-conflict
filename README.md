@@ -1,0 +1,2 @@
+osgi.uses-conflict
+==================
