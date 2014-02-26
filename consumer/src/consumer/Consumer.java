@@ -9,7 +9,6 @@ public class Consumer {
         System.out.println("#FooConsumer");
 
         SomeService service = new SomeService();
-        System.out.println("Logger from service: " + service.getLogger());
 
     }
 }

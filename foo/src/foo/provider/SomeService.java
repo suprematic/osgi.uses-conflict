@@ -10,10 +10,10 @@ public class SomeService {
         System.out.println("#init FooService with " + logger);
     }
 
-    /**
-     * Public API exposing the <strong>foo.lib</strong> package.
-     */
-    public Logger getLogger() {
-        return logger;
-    }
+    // /**
+    // * Public API exposing the <strong>foo.lib</strong> package.
+    // */
+    // public Logger getLogger() {
+    // return logger;
+    // }
 }
