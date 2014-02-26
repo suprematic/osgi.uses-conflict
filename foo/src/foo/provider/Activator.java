@@ -4,13 +4,13 @@ import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 
 
-public class ProviderActivator implements BundleActivator{
+public class Activator implements BundleActivator{
 
 	@Override
 	public void start(BundleContext arg0) throws Exception {
 		
 		System.out.println("#start provider bundle");
-		new FooService();
+		new SomeService();
 		
 	}
 

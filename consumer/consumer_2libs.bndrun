@@ -7,15 +7,16 @@
 
 -runrequires: osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.shell)',\
 	osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.command)',\
-	osgi.identity;filter:='(osgi.identity=foo.lib)',\
-	osgi.identity;filter:='(osgi.identity=foo.provider)',\
-	osgi.identity;filter:='(osgi.identity=consumer)',\
-	osgi.identity;filter:='(osgi.identity=foo.v2.lib-ver2)'
+	osgi.identity;filter:='(osgi.identity=foo.A)',\
+	osgi.identity;filter:='(osgi.identity=foo.B)',\
+	osgi.identity;filter:='(osgi.identity=consumer.C)',\
+	osgi.identity;filter:='(osgi.identity=foo.v2.D)'
 -resolve: auto
--runbundles: consumer;version=latest,\
-	foo.lib;version=latest,\
-	foo.provider;version=latest,\
-	foo.v2.lib-ver2;version=latest,\
+-runbundles: \
+	consumer.C;version=latest,\
+	foo.A;version=latest,\
+	foo.B;version=latest,\
+	foo.v2.D;version=latest,\
 	org.apache.felix.gogo.command;version='[0.12.0,0.12.1)',\
 	org.apache.felix.gogo.runtime;version='[0.10.0,0.10.1)',\
 	org.apache.felix.gogo.shell;version='[0.10.0,0.10.1)'

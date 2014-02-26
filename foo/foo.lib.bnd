@@ -1,2 +1,0 @@
-Bundle-SymbolicName: foo.lib
-Export-Package: foo.lib;version=1.1.0
