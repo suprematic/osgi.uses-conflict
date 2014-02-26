@@ -1,6 +1,6 @@
 Bundle-SymbolicName: consumer.C
 Private-Package: consumer
 
-Import-Package: foo.lib;version=2.0.0,\
+Import-Package: foo.lib,\
 	*
 Bundle-Activator: consumer.Activator
