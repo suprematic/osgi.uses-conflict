@@ -1,2 +1,2 @@
 Bundle-SymbolicName: foo.v2.D
-Export-Package: foo.lib;version=2.0
+Export-Package: foo.lib;version=2.0.0
